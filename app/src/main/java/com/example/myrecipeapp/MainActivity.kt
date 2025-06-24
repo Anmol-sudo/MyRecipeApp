@@ -19,9 +19,6 @@ class MainActivity : ComponentActivity() {
             val navController = rememberNavController()
             MyRecipeAppTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-//                    RecipeScreen(
-//                        modifier = Modifier.padding(innerPadding)
-//                    )
                     RecipeApp(
                         navController = navController,
                         modifier = Modifier.padding(innerPadding)
